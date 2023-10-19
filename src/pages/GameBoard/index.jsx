@@ -6,7 +6,7 @@ export const GameContainer = () => {
     <>
     <div className="page-title">
         <h1>Connect Game</h1>
-      </div>
+    </div>
     <div className='board-container'>
       <GameBoard />
     </div>

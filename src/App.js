@@ -1,11 +1,13 @@
 import './App.css';
-import { Calculator, GameContainer } from './examples';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import MainRouter from './router';
+
 
 function App() {
   return (
     <div className="App">
-      {/* <Calculator /> */}
-      <GameContainer />
+      <MainRouter />
     </div>
   );
 }

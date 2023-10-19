@@ -9,7 +9,7 @@ export const Footer = ({ onClearGame, onSuggestMove, disable }) => {
         ) : (
           <>
             <button onClick={onClearGame}>Restore</button>
-            <button onClick={onSuggestMove} disabled>Suggest</button>
+            <button onClick={onSuggestMove}>Suggest</button>
           </>
         )
       }

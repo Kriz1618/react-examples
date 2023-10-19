@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
+
 import CalculatorButton from './Button';
+import { Title } from '../../components/Title';
 
 export function Calculator() {
   const [calc, setCalc] = useState({
@@ -8,6 +10,7 @@ export function Calculator() {
     isInitial: true,
     preOp: null
   });
+  console.log('13', 'calculator', calc);
   // const [oper, setOper] = useState(null);
   // const [operating, setOperating] = useState(false);
   
@@ -47,7 +50,7 @@ export function Calculator() {
         total /= current;
         break;
       case '=':
-        total /= current;
+        total = current;
         break;
       default:
         total = current;
@@ -66,9 +69,7 @@ export function Calculator() {
 
   return (
     <div className='calculator'>
-      <div className="page-title">
-        <h1>Calculator</h1>
-      </div>
+      <Title title='Calculator' />
       
       <div className="display">{showDisplay()}</div>
       
