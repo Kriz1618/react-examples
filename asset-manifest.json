@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-examples/static/css/main.f05f6fcb.css",
-    "main.js": "/react-examples/static/js/main.0d52aaaf.js",
+    "main.css": "/react-examples/static/css/main.9b5e8938.css",
+    "main.js": "/react-examples/static/js/main.70363f6d.js",
     "static/media/fondo.jpg": "/react-examples/static/media/fondo.161d71fcbe991ccbde30.jpg",
     "static/media/img8.png": "/react-examples/static/media/img8.7a893dddc4ba87df4c16.png",
     "static/media/img7.png": "/react-examples/static/media/img7.805a192f8f407970df8b.png",
@@ -14,11 +14,11 @@
     "static/media/img4.png": "/react-examples/static/media/img4.5cd2c3397a3e4d8fdbea.png",
     "static/media/img9.png": "/react-examples/static/media/img9.1d57d7db9374e07db2f7.png",
     "index.html": "/react-examples/index.html",
-    "main.f05f6fcb.css.map": "/react-examples/static/css/main.f05f6fcb.css.map",
-    "main.0d52aaaf.js.map": "/react-examples/static/js/main.0d52aaaf.js.map"
+    "main.9b5e8938.css.map": "/react-examples/static/css/main.9b5e8938.css.map",
+    "main.70363f6d.js.map": "/react-examples/static/js/main.70363f6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.f05f6fcb.css",
-    "static/js/main.0d52aaaf.js"
+    "static/css/main.9b5e8938.css",
+    "static/js/main.70363f6d.js"
   ]
 }
